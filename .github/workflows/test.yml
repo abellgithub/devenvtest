@@ -7,7 +7,7 @@ jobs:
 
         steps:
         - uses: ilammy/msvc-dev-cmd@v1.1.7
-        - name Test
+        - name: Test
           shell: bash -l {0}
           run: |
             echo $PLATFORM
